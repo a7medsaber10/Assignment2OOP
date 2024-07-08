@@ -1,5 +1,29 @@
-﻿namespace Assignment2OOP
+﻿using System;
+
+namespace Assignment2OOP
 {
+    // ---------------------------  Part1  ---------------------------
+
+    #region indexer
+    // indexer is a special Property: 
+    //   - indexer allows instances of a class or struct to be indexed just like arrays.
+    //   - It enables objects to be treated like arrays for retrieval and setting of elements.
+    //   - Indexers are defined using special "this" keyword.
+    //   - Indexers can take Parameters.
+
+    //public returnType this[indexer parameters] //Indexers are defined using special "this" keyword 
+    //{
+    //    get
+    //    {
+    //        // Return value based on indexer parameters
+    //    }
+    //    set
+    //    {
+    //        // Set value based on indexer parameters
+    //    }
+    //}
+    #endregion
+
 
     // ---------------------------  Part2  ---------------------------
     // 1. Design and implement a Class for the employees in a company:
