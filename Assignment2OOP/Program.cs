@@ -24,6 +24,108 @@ namespace Assignment2OOP
     //}
     #endregion
 
+    #region class
+
+    #region simple example of class
+    //// simple example for class
+    //public class Car
+    //{
+    //    // Attributes
+    //    private string make;
+    //    private string model;
+    //    private int year;
+
+    //    // Properties
+    //    public string Make
+    //    {
+    //        get { return make; }
+    //        set { make = value; }
+    //    }
+
+    //    public string Model
+    //    {
+    //        get { return model; }
+    //        set { model = value; }
+    //    }
+
+    //    public int Year
+    //    {
+    //        get { return year; }
+    //        set
+    //        {
+    //            if (value > 1885) // The first car was made in 1886
+    //                year = value;
+    //        }
+    //    }
+
+    //    // Constructor
+    //    public Car(string make, string model, int year)
+    //    {
+    //        this.make = make;
+    //        this.model = model;
+    //        this.year = year;
+    //    }
+
+    //    // Method
+    //    public void DisplayInfo()
+    //    {
+    //        Console.WriteLine($"Car: {year} {make} {model}");
+    //    }
+    //} 
+    #endregion
+
+    #region Constructor Chaining
+    // constructor chaining => the practice of calling one constructor from another constructor within the same class or from a base class constructor.
+    // This technique allows you to avoid code duplication and create a clear, organized flow of initialization logic.
+    //public class Car
+    //{
+    //    #region Attributes
+    //    private int id;
+
+    //    private string model;
+
+    //    private double speed;
+    //    #endregion
+
+    //    #region Properties
+    //    public double Speed
+    //    {
+    //        get { return speed; }
+    //        set { speed = value; }
+    //    }
+
+    //    public string Model
+    //    {
+    //        get { return model; }
+    //        set { model = value; }
+    //    }
+
+    //    public int ID
+    //    {
+    //        get { return id; }
+    //        set { id = value; }
+    //    }
+    //    #endregion
+
+
+
+
+    //    // Constructor
+    //    public Car(int _id, string _model, double _Speed)
+    //    {
+    //        id = _id;
+    //        model = _model;
+    //        speed = _Speed;
+    //    }
+
+    //    public Car(int _id, string _model) : this(_id, _model, 180) {  }
+
+    //    public Car(int _id) : this(_id, "BMW", 280) {  }
+    //}
+    #endregion
+
+    #endregion
+
 
     // ---------------------------  Part2  ---------------------------
     // 1. Design and implement a Class for the employees in a company:
