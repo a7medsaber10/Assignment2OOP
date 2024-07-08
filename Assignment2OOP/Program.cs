@@ -141,6 +141,17 @@ namespace Assignment2OOP
     //}
     #endregion
 
+    #region Access Modifiers
+    //Access modifiers in C# control the visibility and accessibility of classes, methods, properties, fields, and other members within the code.
+
+    // 1. private: Access only within the same class.
+    // 2. private protected: Access within the same class and derived classes within the same assembly.
+    // 3. protected: Access within the same class and derived classes.
+    // 4. internal: Access within the same assembly.
+    // 5. protected internal: Access within the same assembly and derived classes.
+    // 6. public: Access from anywhere.
+    #endregion
+
 
     // ---------------------------  Part2  ---------------------------
     // 1. Design and implement a Class for the employees in a company:
