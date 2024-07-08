@@ -126,6 +126,21 @@ namespace Assignment2OOP
 
     #endregion
 
+    #region inheritance
+    // inheritance => allows one class (the derived or child class) to inherit the properties and methods of another class (the base or parent class).
+    // This promotes code reuse, logical hierarchy, and the ability to extend existing code without modification.
+
+    //public class BaseClass
+    //{
+    //    // Base class members
+    //}
+
+    //public class DerivedClass : BaseClass
+    //{
+    //    // Derived class members
+    //}
+    #endregion
+
 
     // ---------------------------  Part2  ---------------------------
     // 1. Design and implement a Class for the employees in a company:
